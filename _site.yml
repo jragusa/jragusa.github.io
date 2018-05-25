@@ -11,7 +11,7 @@ navbar:
       href: cv.html
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:<jeremy.ragusa@hotmail.fr>
     - icon: fa-flickr fa-lg
       href: https://www.flickr.com/photos/76628651@N07/
     - icon: fa-github fa-lg
