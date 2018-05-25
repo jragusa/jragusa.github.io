@@ -8,6 +8,10 @@ output:
   
   <link rel="stylesheet" href="styles.css" type="text/css">
 
+  ```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
 My full CV is available [here](files/jragusa_cv.pdf)
 
 ## Professional Experiences
@@ -58,20 +62,22 @@ Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of 
 
 ## Analytical methods
 
-Sedimentary petrography, heavy mineral separation, stratigraphy, statistics
+<i class="fa fa-flask" style="font-size: 1.5em;"></i> Sedimentary petrography, heavy mineral separation, stratigraphy, statistics
 
 ## Skills
 
-<i class="fab fa-linux"></i> Linux (Fedora), Windows
+<i class="fa fa-linux" style="font-size: 1.5em;"></i> Linux (Fedora) 
 
-<i class="fas fa-terminal"></i> Inkscape, QGIS, Libre office and Office
+<i class="fa fa-windows" style="font-size: 1.5em;"></i> Windows
 
-<i class="fab fa-r-project"></i> and RStudio
+<i class="fa fa-desktop" style="font-size: 1.5em;"></i> Inkscape, QGIS, Libre office and Office
 
-<i class="fas fa-camera-retro"></i> English (good), French (native), Russian (basics)
+<i class="fa fa-terminal" style="font-size: 1.5em;"></i> LaTeX, R and RStudio, Git, Html/CSS (basic)
+
+<i class="fa fa-language" style="font-size: 1.5em;"></i> English (good), French (native), Russian (basics)
 
 ## Interests
 
-photo, hiking, running
+<i class="fa fa-camera" style="font-size: 1.5em;"></i> photo, hiking, running
 
-contributor OpenStreetMap and Wikipedia
+<i class="fa fa-globe" style="font-size: 1.5em;"></i> OpenStreetMap and Wikipedia
