@@ -1,0 +1,63 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+  
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  
+<span style="color:#a6ce39">Orcid ID</span>: [0000-0002-6597-7475](https://orcid.org/0000-0002-6597-7475)
+
+## Peer-reviewed Publications
+
+Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Bashah S, Bujan S, Reijmer JJG, Cavailhes T, Droxler AW, Blank DG, Guiastrennec L, Fabregas N, Recouvreur A, and Seibert C (**2017**). Carbonate slope morphology revealing a giant submarine canyon
+(Little Bahama Bank, Bahamas). *Geology*, 46(1):31–34, doi: [10.1130/G39527.1](https://pubs.geoscienceworld.org/gsa/geology/article-abstract/46/1/31/522865/carbonate-slope-morphology-revealing-a-giant?redirectedFrom=fulltext)
+
+**Ragusa J**, Kindler P, Segvic B, Ospina-Ostios LM (**2017**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. *International Journal of Earth Sciences*, 106(8):2619–2651, doi: [10.1007/s00531-017-1474-9](http://link.springer.com/article/10.1007%2Fs00531-017-1474-9)
+
+Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). *Sedimentology*, 60:225–238, doi: [10.1111/sed.12013](http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03)
+
+## Submitted Publications
+
+**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**accepted**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*.
+
+**Ragusa J**, Kindler P. Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France) (**in review**). *Sedimentary Geology*.
+
+## Dissertations
+**Ragusa J** (**2015**). Petrograpy, stratigraphy and provenance analysis of the Voirons Flysch (Gurnigel nappe) in the Chablais Prealps (France). PhD Thesis, *University of Geneva*, official repository: [Archive ouverte UniGE](https://archive-ouverte.unige.ch/unige:75519)
+
+**Ragusa J** (**2009**). Study of heavy mineral population in the Voirons Flysch and the Samoëns Sandstones. Master Thesis, *University of Geneva*
+
+## Conference abstracts
+
+Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Conesa G, Principaud M, Le Goff J, **Ragusa J**, Bujan S (**2017**). Carbonate slope morphology revealing bank-to-slope sediment transfer in Little Bahama Bank, Bahamas. Abstract for the European Geosciences Union (EGU) Meeting, Vienna.
+
+**Ragusa J**, Kindler P (**2016**). Influence of grain-size and framework composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel Nappe, Chablais Prealps, France). Abstract for the 3rd Workshop of the Working Group of Sediment Generation (WGSG), Leuven.
+
+**Ragusa J**, Kindler P (**2016**). Relation between grain-size and modal composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel nappe, Chablais Prealps, France). Abstract for the European Geosciences Union (EGU) Meeting, Vienna.
+
+**Ragusa J**, Kindler P (**2016**). Relation between grain-size and modal composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel nappe, Chablais Prealps, France). Abstract for the SwissSed, Fribourg.
+
+**Ragusa J**, Kindler P (**2015**). Reconstructing the sediment provenance of the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 12th Alpine Workshop, Briançon.
+
+Ospina-Ostios LM, **Ragusa J** (**2015**). The use biostratigraphic tools in dating the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 12th Alpine Workshop, Briançon.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2014**). Discovery of two major sediment sources for the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 19th International Sedimentology Congress (ISC), Geneva.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2013**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): highlighting two major sources. Abstract for the Swiss Geoscience Meeting (SGM), Lausanne.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2013**). Highlighting multiple sources for the Voirons Flysch (Gurnigel nappe, Chablais Prealps, Haute-Savoie,France) and stratigraphic implications. Abstract for the 1st School of Heavy Mineral Analysis, Milano.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2012**). Using Dickinson’s method for a better understanding of the origin of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France). Abstract for the Swiss Geoscience Meeting (SGM), Berne.
+
+Ospina-Ostios LM, **Ragusa J**, Kindler P (**2011**). New sedimentological and biostratigraphic data from the Voirons Flysch (Voirons Massif, Gurnigel nappe, Haute-Savoie, France) : Implications for Alpine geology. Abstract for the Swiss Geoscience Meeting (SGM), Bernouilli-Matter symposium, Zurich.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2011**). Fault-controlled formation of a primary turbiditic channel within the Gurnigel Flysch in the Voirons Massif (Haute-Savoie, France) during the Late Eocene. Abstract for the Swiss Geoscience Meeting (SGM), Zurich.
+
+Ospina-Ostios LM, **Ragusa J**, Kindler P (**2010**), New biostratigraphic data from the Voirons Sandstones (Voirons massif, Haute-Savoie, France): implications for the paleogeography for the Gurnigel nappe. Abstract for the Swiss Geoscience Meeting (SGM), Fribourg.
+
+**Ragusa J**, Ospina-Ostios LM, Kindler P (**2010**), Preliminary results of the sedimentary petrography study of the Gurnigel flysch in the Voirons and Vouan massif. Abstract for the Swiss Geoscience Meeting, Fribourg.
+
+Ospina-Ostios LM, **Ragusa J**, Kindler P (**2009**), New interpretation about turbidites in the Voirons Massif, Gurigel Nappe (Haute-Savoie, France). Abstract for the 27th International Association of Sedimentologists (IAS) Meeting , Alghero.

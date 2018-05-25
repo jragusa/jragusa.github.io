@@ -1,8 +1,26 @@
-name: "my-website"
+name: "Jérémy Ragusa"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Jérémy Ragusa"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Publications"
+      href: publications.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-flickr fa-lg
+      href: https://www.flickr.com/photos/76628651@N07/
+    - icon: fa-github fa-lg
+      href: https://github.com/jragusa
+    - icon: fa-flask fa-lg
+      href: https://www.researchgate.net/profile/Jeremy_Ragusa
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/j%C3%A9r%C3%A9my-ragusa-56320615a/
+output:
+  html_document:
+    theme: lumen
+    css: 'styles.css'

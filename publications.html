@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+
+.section h2 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h3 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h4 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h5 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h6 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jérémy Ragusa</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.flickr.com/photos/76628651@N07/">
+    <span class="fa fa-flickr fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/jragusa">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Jeremy_Ragusa">
+    <span class="fa fa-flask fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-ragusa-56320615a/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p><span style="color:#a6ce39">Orcid ID</span>: <a href="https://orcid.org/0000-0002-6597-7475">0000-0002-6597-7475</a></p>
+<div id="peer-reviewed-publications" class="section level2">
+<h2>Peer-reviewed Publications</h2>
+<p>Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Conesa G, Le Goff J, <strong>Ragusa J</strong>, Bashah S, Bujan S, Reijmer JJG, Cavailhes T, Droxler AW, Blank DG, Guiastrennec L, Fabregas N, Recouvreur A, and Seibert C (<strong>2017</strong>). Carbonate slope morphology revealing a giant submarine canyon (Little Bahama Bank, Bahamas). <em>Geology</em>, 46(1):31–34, doi: <a href="https://pubs.geoscienceworld.org/gsa/geology/article-abstract/46/1/31/522865/carbonate-slope-morphology-revealing-a-giant?redirectedFrom=fulltext">10.1130/G39527.1</a></p>
+<p><strong>Ragusa J</strong>, Kindler P, Segvic B, Ospina-Ostios LM (<strong>2017</strong>). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. <em>International Journal of Earth Sciences</em>, 106(8):2619–2651, doi: <a href="http://link.springer.com/article/10.1007%2Fs00531-017-1474-9">10.1007/s00531-017-1474-9</a></p>
+<p>Ospina-Ostios LM, <strong>Ragusa J</strong>, Wernli R, Kindler P (<strong>2013</strong>). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). <em>Sedimentology</em>, 60:225–238, doi: <a href="http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03">10.1111/sed.12013</a></p>
+</div>
+<div id="submitted-publications" class="section level2">
+<h2>Submitted Publications</h2>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Spezzaferri S, Kindler P (<strong>accepted</strong>). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). <em>Swiss Journal of Geosciences</em>.</p>
+<p><strong>Ragusa J</strong>, Kindler P. Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France) (<strong>in review</strong>). <em>Sedimentary Geology</em>.</p>
+</div>
+<div id="dissertations" class="section level2">
+<h2>Dissertations</h2>
+<p><strong>Ragusa J</strong> (<strong>2015</strong>). Petrograpy, stratigraphy and provenance analysis of the Voirons Flysch (Gurnigel nappe) in the Chablais Prealps (France). PhD Thesis, <em>University of Geneva</em>, official repository: <a href="https://archive-ouverte.unige.ch/unige:75519">Archive ouverte UniGE</a></p>
+<p><strong>Ragusa J</strong> (<strong>2009</strong>). Study of heavy mineral population in the Voirons Flysch and the Samoëns Sandstones. Master Thesis, <em>University of Geneva</em></p>
+</div>
+<div id="conference-abstracts" class="section level2">
+<h2>Conference abstracts</h2>
+<p>Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Conesa G, Principaud M, Le Goff J, <strong>Ragusa J</strong>, Bujan S (<strong>2017</strong>). Carbonate slope morphology revealing bank-to-slope sediment transfer in Little Bahama Bank, Bahamas. Abstract for the European Geosciences Union (EGU) Meeting, Vienna.</p>
+<p><strong>Ragusa J</strong>, Kindler P (<strong>2016</strong>). Influence of grain-size and framework composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel Nappe, Chablais Prealps, France). Abstract for the 3rd Workshop of the Working Group of Sediment Generation (WGSG), Leuven.</p>
+<p><strong>Ragusa J</strong>, Kindler P (<strong>2016</strong>). Relation between grain-size and modal composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel nappe, Chablais Prealps, France). Abstract for the European Geosciences Union (EGU) Meeting, Vienna.</p>
+<p><strong>Ragusa J</strong>, Kindler P (<strong>2016</strong>). Relation between grain-size and modal composition in deep-sea gravity-flow deposits. Example from the Voirons Flysch (Gurnigel nappe, Chablais Prealps, France). Abstract for the SwissSed, Fribourg.</p>
+<p><strong>Ragusa J</strong>, Kindler P (<strong>2015</strong>). Reconstructing the sediment provenance of the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 12th Alpine Workshop, Briançon.</p>
+<p>Ospina-Ostios LM, <strong>Ragusa J</strong> (<strong>2015</strong>). The use biostratigraphic tools in dating the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 12th Alpine Workshop, Briançon.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2014</strong>). Discovery of two major sediment sources for the Voirons Flysch (Gurnigel Nappe, Haute-Savoie, France). Abstract for the 19th International Sedimentology Congress (ISC), Geneva.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2013</strong>). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): highlighting two major sources. Abstract for the Swiss Geoscience Meeting (SGM), Lausanne.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2013</strong>). Highlighting multiple sources for the Voirons Flysch (Gurnigel nappe, Chablais Prealps, Haute-Savoie,France) and stratigraphic implications. Abstract for the 1st School of Heavy Mineral Analysis, Milano.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2012</strong>). Using Dickinson’s method for a better understanding of the origin of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France). Abstract for the Swiss Geoscience Meeting (SGM), Berne.</p>
+<p>Ospina-Ostios LM, <strong>Ragusa J</strong>, Kindler P (<strong>2011</strong>). New sedimentological and biostratigraphic data from the Voirons Flysch (Voirons Massif, Gurnigel nappe, Haute-Savoie, France) : Implications for Alpine geology. Abstract for the Swiss Geoscience Meeting (SGM), Bernouilli-Matter symposium, Zurich.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2011</strong>). Fault-controlled formation of a primary turbiditic channel within the Gurnigel Flysch in the Voirons Massif (Haute-Savoie, France) during the Late Eocene. Abstract for the Swiss Geoscience Meeting (SGM), Zurich.</p>
+<p>Ospina-Ostios LM, <strong>Ragusa J</strong>, Kindler P (<strong>2010</strong>), New biostratigraphic data from the Voirons Sandstones (Voirons massif, Haute-Savoie, France): implications for the paleogeography for the Gurnigel nappe. Abstract for the Swiss Geoscience Meeting (SGM), Fribourg.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P (<strong>2010</strong>), Preliminary results of the sedimentary petrography study of the Gurnigel flysch in the Voirons and Vouan massif. Abstract for the Swiss Geoscience Meeting, Fribourg.</p>
+<p>Ospina-Ostios LM, <strong>Ragusa J</strong>, Kindler P (<strong>2009</strong>), New interpretation about turbidites in the Voirons Massif, Gurigel Nappe (Haute-Savoie, France). Abstract for the 27th International Association of Sedimentologists (IAS) Meeting , Alghero.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

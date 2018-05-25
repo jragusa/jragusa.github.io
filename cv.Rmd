@@ -1,0 +1,77 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+  
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+My full CV is available [here](files/jragusa_cv.pdf)
+
+## Professional Experiences
+Lecturer at the University of Geneva (**2018--2019**). Regional Geology (courses and fields) for 2nd year Bachelor
+
+Scientific advisor at the Chablais Geopark (**2017--present**).
+  
+## Education
+
+PostDoc (**2015--2016**). University of Geneva, Switzerland. Supervisor : Pascal
+Kindler.
+
+PhD Student in sedimentary geology (**2009--2015**). University of Geneva, Switzerland. Supervisor : Pascal Kindler.
+
+Master Student in sedimentary geology (**2006--2009**). University of Geneva, Switzerland. Supervisor : Pascal Kindler.
+
+Master 1 in paleoprimatology, paleontology and paleoenvironnements (**2004--2005**). University of Poitiers, France.
+
+Bachelor in geology (**2001--2004**). University of Dijon, France.
+
+## Awards & Grants
+
+Bourse Lombard (**2009**). Master thesis Award (1000 CHF), Société de Physique et d’Histoire naturel de Genève.
+
+## Organisation
+
+Kindler P, Ragusa J, Slootman A (**2014**). Pre-Meeting IAS-Student Field Trip: The Mt. Salève, 19th International Sedimentology Congress (ISC), Geneva.
+
+Kindler P (**2014**). From passive margin to foreland basin: stratigraphy and sedimentology of the Bornes-Aravis massif (Haute-Savoie, France) from the Triassic to the Oligocene, 19th International Sedimentology Congress (ISC), Geneva.
+
+## Short courses
+
+4th Sedimentary Provenance Analysis (**2014**). University of Göttigen, Germany.
+
+1st School of Heavy Mineral Analysis (**2013**). University of Milano-Bicocca, Italy.
+
+## Field courses
+
+Carambar 2 (**2016**). Deep-sea core drilling project off Bahamas, Ifremer, leader: Thierry Mulder (University of Bordeaux).
+
+Workshop on Alpine Carbonate Platforms (**2015**). France, Doctoral school of Western Switzerland (CUSO), leader: Pascal Kindler (University of Geneva).
+
+Facies and structure of the Permian to Jurassic oceanic assemblage with a Panthalassic affinity of the Mino terrane (**2013**). Terrane central Japan, Japan, Doctoral school of Western Switzerland (CUSO), leader: Rossana Martini (University of Geneva).
+
+Tectonics and sedimentation along an active plate boundary (**2012**) New Zealand, Doctoral school of Western Switzerland (CUSO), leader: Guy Simpson (University of Geneva).
+
+Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of Western Switzerland (CUSO), leader: Pascal Kindler (University of Geneva).
+
+## Analytical methods
+
+Sedimentary petrography, heavy mineral separation, stratigraphy, statistics
+
+## Skills
+
+<i class="fab fa-linux"></i> Linux (Fedora), Windows
+
+<i class="fas fa-terminal"></i> Inkscape, QGIS, Libre office and Office
+
+<i class="fab fa-r-project"></i> and RStudio
+
+<i class="fas fa-camera-retro"></i> English (good), French (native), Russian (basics)
+
+## Interests
+
+photo, hiking, running
+
+contributor OpenStreetMap and Wikipedia

@@ -1,5 +1,8 @@
 ---
-  title: "My Website"
 ---
   
-  Hello, Website! Welcome to the world.
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/76628651@N07/30307772341/in/dateposted-public/" title="Panorama de la Tête du Bostan depuis la Berthe"><img src="https://farm6.staticflickr.com/5598/30307772341_ef2e356cf3_c.jpg" width="880" alt="Panorama de la Tête du Bostan depuis la Berthe"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<br>
+Géologue bénéficiant d'une expertise dans le domaine de la sédimentologie détritique et la géologie régionale (Préalpes, Massifs sub-alpins). Très bonne connaissance dans l'analyse de roche détritique (composition, provenance, minéraux lourds), les statistiques et le langage de programmation R. Géologue autonome et curieux. Nombreuses compétences en informatique (linux, inkscape, R) et partageur de savoir (wikipedia, openstreetmap, Chablais Geopark). Actuellement à la recherche d'un emploi sur le bassin genevois.
