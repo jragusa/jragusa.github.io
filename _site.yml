@@ -9,6 +9,10 @@ navbar:
       href: publications.html
     - text: "CV"
       href: cv.html
+    - text: "Project"
+      menu:
+        - text: "Voirons Flysch"
+          href: voirons.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<jeremy.ragusa@hotmail.fr>
