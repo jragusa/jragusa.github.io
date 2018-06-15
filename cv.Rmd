@@ -32,6 +32,11 @@ Master 1 in paleoprimatology, paleontology and paleoenvironnements (**2004--2005
 
 Bachelor in geology (**2001--2004**). University of Dijon, France.
 
+## Professional Memberships
+
+Swiss Geological Society
+Association des sédimentologues français
+
 ## Awards & Grants
 
 Bourse Lombard (**2009**). Master thesis Award (1000 CHF), Société de Physique et d’Histoire naturel de Genève.
@@ -64,7 +69,7 @@ Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of 
 
 ## Analytical methods
 
-<i class="fa fa-flask" style="font-size: 1.5em;"></i> **Sedimentary petrography** sieving, staining feldspars, heavy mineral separation (SPT), counting, **Stratigraphy**
+<i class="fa fa-flask" style="font-size: 1.5em;"></i> **Sedimentary petrography** sieving, staining feldspars, heavy mineral separation (SPT), counting
 
 <i class="fa fa-calculator" style="font-size: 1.5em;"></i> **Statistical analysis** cluster analysis, principal component analysis, Pearson coefficient, Aitchison’s log-ratio transformation
 
