@@ -64,7 +64,9 @@ Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of 
 
 ## Analytical methods
 
-<i class="fa fa-flask" style="font-size: 1.5em;"></i> Sedimentary petrography, heavy mineral separation, stratigraphy, statistics
+<i class="fa fa-flask" style="font-size: 1.5em;"></i> **Sedimentary petrography** sieving, staining feldspars, heavy mineral separation (SPT), counting, **Stratigraphy**
+
+<i class="fa fa-calculator" style="font-size: 1.5em;"></i> **Statistical analysis** cluster analysis, principal component analysis, Pearson coefficient, Aitchison’s log-ratio transformation
 
 ## Skills
 
