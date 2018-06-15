@@ -20,3 +20,5 @@ output:
   <a href="https://www.flickr.com/photos/76628651@N07/21716792824/in/dateposted-public/"><img src="https://farm1.staticflickr.com/606/21716792824_8bf113a8c5_c.jpg"  style="height:200px;" alt="Les Dents du Midi depuis la Pointe de Bellevue"></a>
   <a href="https://www.flickr.com/photos/76628651@N07/21632513570/in/dateposted-public/"><img src="https://farm6.staticflickr.com/5637/21632513570_911eb95345_c.jpg" style="height:200px;" alt="Chalet d&#x27;Anterne devant la Chaîne de Fiz"></a>
 </figure>
+<br>
+<p><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Jérémy Ragusa and <a href="https://www.rstudio.com/"><img src="images/logorstudio.png" style="height:1.5em;"> </a></p>
