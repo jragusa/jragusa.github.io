@@ -2,9 +2,9 @@
 title: "Provenance analysis of the Voirons Flysch"
 output:
   html_document:
-    toc: true
+    toc: yes
     toc_depth: 3
-    toc_float: true
+    toc_float: yes
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -42,9 +42,9 @@ Framework composition and heavy mineral populations describe two major detrital 
 
 ![Distribution of the Quartzose and Feldspathic petrofacies in the ternary diagrams of the Dickinson model (Ragusa et al., 2017)](https://raw.github.com/jragusa/Publications/master/Ragusa2017a/graphs/Fig9.png)
 
-### Grain-size and lithofacies
+<!-- ### Grain-size and lithofacies -->
 
-The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. **L1**-**L2** correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. **L3**-**L5** lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (**L6**) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current.
+<!-- The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. **L1**-**L2** correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. **L3**-**L5** lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (**L6**) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current. -->
 
 ### Stratigraphy
 
@@ -84,10 +84,10 @@ The **Bruant Sandstone Fm.** (Ragusa, 2015) is lithologically similar to the Voi
 
 ## Associated publications
 
+**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**accepted**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*.
+
 **Ragusa J**, Kindler P, Segvic B, Ospina-Ostios LM (**2017**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. *International Journal of Earth Sciences*, 106(8):2619–2651, doi: [10.1007/s00531-017-1474-9](http://link.springer.com/article/10.1007%2Fs00531-017-1474-9)
 
 Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). *Sedimentology*, 60:225–238, doi: [10.1111/sed.12013](http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03)
-
-**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**accepted**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*.
 
 **Ragusa J**, Kindler P. Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France) (**in review**). *Sedimentary Geology*.
