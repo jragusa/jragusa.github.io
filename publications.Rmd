@@ -8,7 +8,7 @@ output:
   
   <link rel="stylesheet" href="styles.css" type="text/css">
   
-<span style="color:#a6ce39">Orcid ID</span>: [0000-0002-6597-7475](https://orcid.org/0000-0002-6597-7475)
+<a href="https://orcid.org/0000-0002-6597-7475"><font color="a6ce39">Orcid ID</font></a> and [Google Scholar](https://scholar.google.fr/citations?user=dcONfmgAAAAJ)
 
 ## Peer-reviewed Publications
 
