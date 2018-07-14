@@ -12,7 +12,7 @@ output:
 
 ## Peer-reviewed Publications
 
-**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**2018**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*, doi: 10.1007/s00015-018-0314-7.
+**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**2018**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*, doi: [10.1007/s00015-018-0314-7](https://link.springer.com/article/10.1007%2Fs00015-018-0314-7).
 
 Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Bashah S, Bujan S, Reijmer JJG, Cavailhes T, Droxler AW, Blank DG, Guiastrennec L, Fabregas N, Recouvreur A, and Seibert C (**2017**). Carbonate slope morphology revealing a giant submarine canyon
 (Little Bahama Bank, Bahamas). *Geology*, 46(1):31–34, doi: [10.1130/G39527.1](https://pubs.geoscienceworld.org/gsa/geology/article-abstract/46/1/31/522865/carbonate-slope-morphology-revealing-a-giant?redirectedFrom=fulltext).
