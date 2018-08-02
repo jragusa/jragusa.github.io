@@ -23,6 +23,43 @@ The Alps result from the convergence of the European and the African plates, and
 
 Located along the outer edge of the Chablais massif, the Voirons-Wägital complex, formely called Gurnigel nappe (Caron, 1976), is one of the lowermost Prealpine units. This nappe extends throughout the Swiss Prealps to Lake Zurich to the NE. It corresponds to a detrital accumulation generally interpreted as deep-sea gravity-flow deposits (i.e. a flysch; Kuenen and Carozzi, 1953; Frébourg, 2006) based on the Rhabdamina fauna found in some marly intervals (Brouwner, 1965; Weidmann, 1967; Van Stuijvenberg et al., 1976; Ujetz, 1996) and the ichnofacies associations (Crimes et al., 1981). Recurrent plant fragments observed on top of many beds suggest deposition by extrabasinal gravity flows (e.g. hyperpycnal flows; Zavala and Arcuri, 2016). Detrital sediments originate from the southern margin of the Alpine Tethys (Winkler, 1984; Caron et al., 1989; Bütler et al., 2011).
 
+```{r include = FALSE}
+library(leaflet)
+
+outcrops <- read.csv("/home/jeremy/UniGE/Git/VoironsFlysch/data/outcrops.csv", header = TRUE, comment.char = "#", stringsAsFactors = FALSE)
+
+pal <- colorFactor(c("#FF9130", "#FEDD55", "#9C9C9B", "#3B0030", "#3B0030", "#F53A33"), domain = c("Voirons Sandstone", "Vouan Conglomerate", "Boëge Marl", "Bruant Sandstone", "Voirons Sandstone - Vouan Conglomerate", "Gurnigel"))
+```
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+outcrops %>% 
+  leaflet(width = "100%") %>%
+  setView(lng = 6.7055, lat = 46.2634, zoom = 10) %>% 
+  addTiles() %>%
+  addCircleMarkers(
+    radius = 5,
+    color = ~pal(formation),
+    stroke = FALSE, 
+    fillOpacity = 0.9,
+    popup = paste("<strong>", "Name:", "</strong>", outcrops$name_en, "<br>",
+                  # "<strong>", "Nom:", "</strong>", outcrops$name_fr, "<br>",
+                  "<strong>", "Formation:", "</strong>", outcrops$formation, "<br>",
+                  "<strong>", "Member:", "</strong>", outcrops$member, "<br>",
+                  "<strong>", "Status:", "</strong>", outcrops$status, "<br>",
+                  "<strong>", "Type:", "</strong>", outcrops$type, "<br>",
+                  "<strong>", "Comment:", "</strong>", outcrops$comments)) %>%
+  addLegend("topright", 
+            colors= c("#FEDD55", "#FF9130", "#F53A33", "#3B0030"), 
+            labels=c("Bruant Sandstone", "Boëge Marl", "Vouan Conglomerate", "Voirons Sandstone"), 
+            opacity = 1,
+            title="Voirons Flysch") %>% 
+    addLegend("topright", 
+            colors= c("#9C9C9B"), 
+            labels=c("Gurnigel Flysch"), 
+            title="Others Flysch") %>% 
+  addMiniMap()
+```
+
 ## Problematic
 
 The exact palaeogeographic location of the Voirons-Wägital complex remains controversial. For long, the flysch units outcropping along the NW
