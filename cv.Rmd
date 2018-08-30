@@ -15,7 +15,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 My full CV is available [here](files/jragusa_cv.pdf)
 
 ## Professional Experiences
-Lecturer at the [University of Geneva](https://www.unige.ch/sciences/terre/en/]) (**2018--2019**). Regional Geology for 2nd year Bachelor (course: 12T005-CR and fields: 12T506-TT, 12T510-TT).
+Lecturer at the [University of Geneva](https://www.unige.ch/sciences/terre/en/]) (**2019**). Regional Geology for 2nd year Bachelor (course: 12T005-CR and fields: 12T506-TT, 12T510-TT).
 
 Scientific consultant at the [Chablais Geopark](http://www.geopark-chablais.com/) (**2017--present**).
   
