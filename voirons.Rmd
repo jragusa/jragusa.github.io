@@ -121,10 +121,10 @@ The **Bruant Sandstone Fm.** (Ragusa, 2015) is lithologically similar to the Voi
 
 ## Associated publications
 
-**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**2018**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*, doi: [10.1007/s00015-018-0314-7](https://link.springer.com/article/10.1007%2Fs00015-018-0314-7).
+**Ragusa J**, Kindler P (**accepted**). Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France). *Sedimentary Geology*, doi: [10.1016/j.sedgeo.2018.08.010](https://www.sciencedirect.com/science/article/pii/S0037073818302033?via%3Dihub).
 
-**Ragusa J**, Kindler P, Segvic B, Ospina-Ostios LM (**2017**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. *International Journal of Earth Sciences*, 106(8):2619–2651, doi: [10.1007/s00531-017-1474-9](http://link.springer.com/article/10.1007%2Fs00531-017-1474-9)
+**Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**2018**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*, doi: [10.1007/s00015-018-0314-7](https://link.springer.com/article/10.1007%2Fs00015-018-0314-7) [[PDF](files/Ragusa2018a.pdf)].
 
-Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). *Sedimentology*, 60:225–238, doi: [10.1111/sed.12013](http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03)
+**Ragusa J**, Kindler P, Segvic B, Ospina-Ostios LM (**2017**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. *International Journal of Earth Sciences*, 106(8):2619–2651, doi: [10.1007/s00531-017-1474-9](http://link.springer.com/article/10.1007%2Fs00531-017-1474-9) [[PDF](files/Ragusa2017a.pdf)].
 
-**Ragusa J**, Kindler P. Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France) (**in review**). *Sedimentary Geology*.
+Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). *Sedimentology*, 60:225–238, doi: [10.1111/sed.12013](http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03) [[PDF](files/Ospina-Ostios2013.pdf)].
