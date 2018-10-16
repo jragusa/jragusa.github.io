@@ -79,9 +79,11 @@ Framework composition and heavy mineral populations describe two major detrital 
 
 ![Distribution of the Quartzose and Feldspathic petrofacies in the ternary diagrams of the Dickinson model (Ragusa et al., 2017)](https://raw.github.com/jragusa/Publications/master/Ragusa2017a/graphs/Fig9.png)
 
-<!-- ### Grain-size and lithofacies -->
+### Grain-size and lithofacies
 
-<!-- The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. **L1**-**L2** correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. **L3**-**L5** lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (**L6**) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current. -->
+The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. **L1**-**L2** correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. **L3**-**L5** lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (**L6**) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current.
+
+![Synthetic depositional model showing the compositional variation in gravity-flow deposits of the Voirons Flysch. 1 and 2 correspond to the major segregation stages.](https://raw.github.com/jragusa/Publications/master/Ragusa2018b/graphs/Fig15.png)
 
 ### Stratigraphy
 
