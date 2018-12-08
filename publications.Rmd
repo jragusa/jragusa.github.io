@@ -12,14 +12,13 @@ output:
 
 ## Peer-reviewed Publications
 
-Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Busson J and Borgomanoa J. (**in press**) Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. *Marine Geology*, doi: [10.1016/j.margeo.2018.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032)
+Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Busson J and Borgomanoa J. (**2018**) Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. *Marine Geology*, 407:316-333, doi: [10.1016/j.margeo.2018.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032) [[PDF](files/Mulder2018.pdf)].
 
 **Ragusa J**, Kindler P (**2018**). Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France). *Sedimentary Geology*, 377:111-130, doi: [10.1016/j.sedgeo.2018.08.010](https://www.sciencedirect.com/science/article/pii/S0037073818302033) [[PDF](files/Ragusa2018b.pdf)].
 
 **Ragusa J**, Ospina-Ostios LM, Spezzaferri S, Kindler P (**2018**). Revision of the planktonic foraminiferal biostratigraphy of the Voirons Flysch (Chablais Prealps, Haute-Savoie, France). *Swiss Journal of Geosciences*, 111:433–445, doi: [10.1007/s00015-018-0314-7](https://link.springer.com/article/10.1007%2Fs00015-018-0314-7) [[PDF](files/Ragusa2018a.pdf)].
 
-Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Bashah S, Bujan S, Reijmer JJG, Cavailhes T, Droxler AW, Blank DG, Guiastrennec L, Fabregas N, Recouvreur A, and Seibert C (**2017**). Carbonate slope morphology revealing a giant submarine canyon
-(Little Bahama Bank, Bahamas). *Geology*, 46(1):31–34, doi: [10.1130/G39527.1](https://pubs.geoscienceworld.org/gsa/geology/article-abstract/46/1/31/522865/carbonate-slope-morphology-revealing-a-giant?redirectedFrom=fulltext) [[PDF](files/Mulder2017.pdf)].
+Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Bashah S, Bujan S, Reijmer JJG, Cavailhes T, Droxler AW, Blank DG, Guiastrennec L, Fabregas N, Recouvreur A, and Seibert C (**2017**). Carbonate slope morphology revealing a giant submarine canyon (Little Bahama Bank, Bahamas). *Geology*, 46(1):31–34, doi: [10.1130/G39527.1](https://pubs.geoscienceworld.org/gsa/geology/article-abstract/46/1/31/522865/carbonate-slope-morphology-revealing-a-giant?redirectedFrom=fulltext) [[PDF](files/Mulder2017.pdf)].
 
 **Ragusa J**, Kindler P, Segvic B, Ospina-Ostios LM (**2017**). Provenance analysis of the Voirons Flysch (Gurnigel nappe, Haute-Savoie, France): Stratigraphic and paleogeographic implications. *International Journal of Earth Sciences*, 106(8):2619–2651, doi: [10.1007/s00531-017-1474-9](http://link.springer.com/article/10.1007%2Fs00531-017-1474-9) [[PDF](files/Ragusa2017a.pdf)].
 
