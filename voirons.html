@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -25,14 +25,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
 <link href="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.css" rel="stylesheet" />
 <script src="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.js"></script>
 <script src="site_libs/leaflet-minimap-3.3.1/Minimap-binding.js"></script>
@@ -86,9 +86,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -102,7 +100,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -207,8 +204,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -253,6 +248,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -265,48 +261,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -320,6 +277,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -355,8 +318,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -365,6 +326,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -478,7 +449,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 </div>
 <div id="problematic" class="section level2">
 <h2>Problematic</h2>
-<p>The exact palaeogeographic location of the Voirons-Wägital complex remains controversial. For long, the flysch units outcropping along the NW edge of the Prealps were thought to originate from the Ultrahelvetic realm (e.g. Tercier 1928; Lombard 1940), but several authors had already noticed the petrographical resemblance of some conglomerate clasts found in these units (e.g. pink granite fragments) with several rock bodies exposed in the Southern Alps (Sarasin 1894; Pilloud 1936; Lombard 1940; Cogulu 1961) such as the Bernina nappe, Canavese zone, Err-Albula granite and Falknis nappe. Later, based on petrographic and biostratigraphic data, Caron (1976) regrouped all these flyschs in a new tectonic unit, the Gurnigel nappe, which is correlated with the Sarine nappe (Upper Prealps nappe) of South Penninic origin. Detrital grains were thought to originate from the Austro-alpine domain (Winkler 1983; Caron et al. 1989). The peculiar structural position of the Voirons-Wägital complex at the base of the Prealps nappe stack was then explained by the overthrusting of the Upper Prealps nappes beyond the front of the Préalpes Médianes nappe, followed by out-of-sequence thrusting of the latter (Mosar 1991; Wissing and Pfiffner 2002). However, recent structural data from the Iberg Klippe (Trümpy 2006) and the younger age found by Ujetz (1996), Ospina-Ostios et al. (2013) and Ospina-Ostios (2017) now suggest that the Voirons-Wägital complex could have been deposited in the Valais domain, which would considerably simplify the kinematics of the Prealps.</p>
+<p>The exact palaeogeographic location of the Voirons-Wägital complex remains controversial. For long, the flysch units outcropping along the NW edge of the Prealps were thought to originate from the Ultrahelvetic realm (e.g. Tercier 1928; Lombard 1940), but several authors had already noticed the petrographical resemblance of some conglomerate clasts found in these units (e.g. pink granite fragments) with several rock bodies exposed in the Southern Alps (Sarasin 1894; Pilloud 1936; Lombard 1940; Cogulu 1961) such as the Bernina nappe, Canavese zone, Err-Albula granite and Falknis nappe. Later, based on petrographic and biostratigraphic data, Caron (1976) regrouped all these flyschs in a new tectonic unit, the Gurnigel nappe, which is correlated with the Sarine nappe (Upper Prealps nappe) of South Penninic origin. Detrital grains were thought to originate from the Austro-alpine domain (Winkler 1983; Caron et al. 1989). The peculiar structural position of the Voirons-Wägital complex at the base of the Prealps nappe stack was then explained by the overthrusting of the Upper Prealps nappes beyond the front of the Préalpes Médianes nappe, followed by out-of-sequence thrusting of the latter (Mosar 1991; Wissing and Pfiffner 2002). However, recent structural data from the Iberg Klippe (Trümpy 2006) and the younger age found by Ujetz (1996), Ospina-Ostios et al. (2013) and Ospina-Ostios (2017) now suggest that the Voirons-Wägital complex could have been deposited in the Valais domain, which would considerably simplify the kinematics of the Prealps.</p>
 </div>
 <div id="aims" class="section level2">
 <h2>Aims</h2>
@@ -519,7 +490,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 </figure>
 <p>The <strong>Vouan Conglomerate Fm.</strong> mostly includes pebbly sandstones and poorly sorted, matrix-supported, conglomerates with a sandy matrix. Pebbles, cobbles and blocks are randomly distributed within the sandy matrix or constitute well defined horizons. The Vouan Conglomerate Fm. is mostly devoid of marly intervals. Marls usually occur as dm-sized soft pebbles. The dm- to m-thick conglomeratic beds have a limited lateral extent, and locally present a typical channel morphology. The Vouan Conglomerate Fm. thus is interpreted as channel deposits (Frébourg, 2006; Ospina-Ostios et al., 2013; Ragusa, 2015). The boundary between the Vouan Conglomerate Fm. and the overlying Boëge Marl Fm. is sharp.</p>
 </div>
-<div id="boege-marl-fm." class="section level4">
+<div id="boëge-marl-fm." class="section level4">
 <h4>Boëge Marl Fm.</h4>
 <figure>
 <img src="images/DSC_0960_mod.JPG" width="300" alt="Current ripples and lower plan beds"> <img src="images/DSC_2259_mod.JPG" width="300" alt="Marly interval">
@@ -558,6 +529,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
