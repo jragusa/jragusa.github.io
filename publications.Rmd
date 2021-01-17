@@ -11,9 +11,9 @@ output:
 <a href="https://orcid.org/0000-0002-6597-7475"><font color="a6ce39">Orcid ID</font></a> and [Google Scholar](https://scholar.google.fr/citations?user=dcONfmgAAAAJ)
 
 ## Peer-reviewed Publications
-**Ragusa J**, Ospina-Ostios LM, Kindler P, Sartori M (**2021**) Stratigraphic revision and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons Nappe, Chablais Prealps). *Swiss Journal of Geosciences*, 114, doi: 10.1186/s00015-020-00383-1.
+**Ragusa J**, Ospina-Ostios LM, Kindler P, Sartori M (**2021**). Stratigraphic revision and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons Nappe, Chablais Prealps). *Swiss Journal of Geosciences*, 114, doi: 10.1186/s00015-020-00383-1.
 
-Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Busson J and Borgomanoa J (**2018**) Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. *Marine Geology*, 407:316-333, doi: [10.1016/j.margeo.2018.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032) [[PDF](files/Mulder2018.pdf)].
+Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Busson J and Borgomanoa J (**2018**). Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. *Marine Geology*, 407:316-333, doi: [10.1016/j.margeo.2018.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032) [[PDF](files/Mulder2018.pdf)].
 
 **Ragusa J**, Kindler P (**2018**). Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France). *Sedimentary Geology*, 377:111-130, doi: [10.1016/j.sedgeo.2018.08.010](https://www.sciencedirect.com/science/article/pii/S0037073818302033) [[PDF](files/Ragusa2018b.pdf)].
 
@@ -27,7 +27,12 @@ Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foram
 
 ## Submitted Publications
 
-**Ragusa J**, Ospina-Ostios LM, Sartori M, Kindler P (**2020**). Stratigraphic review and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons–Wägital Complex, Chablais Prealps). *Swiss Journal of Geosciences*.
+nothing yet :)
+
+## Science outreach
+
+**Ragusa J**, Decrouez, D, Frebourg, G (**2021**). Géologie du Vouan, un ancien cañon sous-marin à
+l’emplacement incertain, *Nature et Patrimoine en Pays de Savoie*, in press.
 
 ## Dissertations
 **Ragusa J** (**2015**). Petrograpy, stratigraphy and provenance analysis of the Voirons Flysch (Gurnigel nappe) in the Chablais Prealps (France). PhD Thesis, *University of Geneva*, official repository: [Archive ouverte UniGE](https://archive-ouverte.unige.ch/unige:75519)
