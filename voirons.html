@@ -13,6 +13,7 @@
 
 <title>Provenance analysis of the Voirons Flysch</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -25,19 +26,28 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <link href="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.css" rel="stylesheet" />
 <script src="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.js"></script>
 <script src="site_libs/leaflet-minimap-3.3.1/Minimap-binding.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -83,6 +93,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -386,31 +397,31 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:&lt;jeremy.ragusa@hotmail.fr&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.flickr.com/photos/76628651@N07/">
-    <span class="fa fa-flickr fa-lg"></span>
+    <span class="fas fa-flickr fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/jragusa">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.researchgate.net/profile/Jeremy_Ragusa">
-    <span class="fa fa-flask fa-lg"></span>
+    <span class="fas fa-flask fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-ragusa-56320615a/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -440,7 +451,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 <h2>Geological settings</h2>
 <p>The Alps result from the convergence of the European and the African plates, and the subsequent closure of the Alpine Tethys during Cretaceous-Tertiary times (Schmid et al., 1996; Handy et al., 2010). The mountain chain comprises several low-elevation reliefs, such as the Chablais massif (or Chablais Prealps) and the Swiss Prealps, which are located between the Lake Geneva and Lake Thun, straddling France and Switzerland. These massif correspond to the former accretionary prism in the Western to Central Alps. They consists of a stack of sedimentary cover nappes (Caron, 1973; Caron et al., 1989) including, in ascending order, units originating from the European margin (Ultrahelvetic realm), the Valais Ocean, the Briançonnnais micro-continent and the Piemont Ocean. The nappes were detached from their basement during the subduction of the Alpine Tethys, following a thin-skinned, in-sequence thrusting (Mosar, 1991; Wissing and Pfiffner, 2002). Nowadays, the Chablais massif overlies the Helvetic nappes to the SE and the North Alpine Foreland Basin to the NW.<br></p>
 <div class="figure">
-<img src="https://raw.githubusercontent.com/jragusa/VoironsNappe/master/figs/TectonicMap_Prealps.png" alt="Tectonic map of the Chablais and Swiss Prealps (SwissTopo 2008, modified)" />
+<img src="https://raw.githubusercontent.com/jragusa/VoironsNappe/master/figs/TectonicMap_Prealps.png" alt="" />
 <p class="caption">Tectonic map of the Chablais and Swiss Prealps (SwissTopo 2008, modified)</p>
 </div>
 <p>Located along the outer edge of the Chablais massif, the Voirons-Wägital complex, formely called Gurnigel nappe (Caron, 1976), is one of the lowermost Prealpine units. This nappe extends throughout the Swiss Prealps to Lake Zurich to the NE. It corresponds to a detrital accumulation generally interpreted as deep-sea gravity-flow deposits (i.e. a flysch; Kuenen and Carozzi, 1953; Frébourg, 2006) based on the Rhabdamina fauna found in some marly intervals (Brouwner, 1965; Weidmann, 1967; Van Stuijvenberg et al., 1976; Ujetz, 1996) and the ichnofacies associations (Crimes et al., 1981). Recurrent plant fragments observed on top of many beds suggest deposition by extrabasinal gravity flows (e.g. hyperpycnal flows; Zavala and Arcuri, 2016). Detrital sediments originate from the southern margin of the Alpine Tethys (Winkler, 1984; Caron et al., 1989; Bütler et al., 2011).</p>
@@ -461,7 +472,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 <h3>Provenance analysis</h3>
 <p>Sediments encompass a quartzo-felspathic composition with a secondary lithic content. The latter group comprise a great diversity of lithology including carbonates, granite, metamorhpic rock-fragment and few andesitic rock-fragments. The heavy mineral assemblage are dominated by ultrastable (ZTR group) to stable species (apatite and garnet). Unstable grains are scarce.<br> Framework composition and heavy mineral populations describe two major detrital groups. The <strong>Quartzose petrofacies</strong> comprise a quartz-dominated composition with addition of frequent intrabasinal wackestone fragments. Rock-fragments are characterised by the occurence of pink granites, well spreaded in the Voirons-Wägital complex. The <strong>Feldspathic petrofacies</strong> is a feldspar-dominated sediment with a large amount of metamorphic inputs. The latter is also highlighted by the greater concentration of garnet. Diagnostic pebbles are black Paleozoic sandstones probably inherited to the Zone Houillère. Pink grainte are in contrast rare.</p>
 <div class="figure">
-<img src="https://raw.github.com/jragusa/Publications/master/Ragusa2017a/graphs/Fig9.png" alt="Distribution of the Quartzose and Feldspathic petrofacies in the ternary diagrams of the Dickinson model (Ragusa et al., 2017)" />
+<img src="https://raw.github.com/jragusa/Publications/master/Ragusa2017a/graphs/Fig9.png" alt="" />
 <p class="caption">Distribution of the Quartzose and Feldspathic petrofacies in the ternary diagrams of the Dickinson model (Ragusa et al., 2017)</p>
 </div>
 </div>
@@ -469,7 +480,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 <h3>Grain-size and lithofacies</h3>
 <p>The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. <strong>L1</strong>-<strong>L2</strong> correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. <strong>L3</strong>-<strong>L5</strong> lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (<strong>L6</strong>) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current.</p>
 <div class="figure">
-<img src="https://raw.github.com/jragusa/Publications/master/Ragusa2018b/figs/Fig15.png" alt="Synthetic depositional model showing the compositional variation in gravity-flow deposits of the Voirons Flysch. 1 and 2 correspond to the major segregation stages." />
+<img src="https://raw.github.com/jragusa/Publications/master/Ragusa2018b/figs/Fig15.png" alt="" />
 <p class="caption">Synthetic depositional model showing the compositional variation in gravity-flow deposits of the Voirons Flysch. 1 and 2 correspond to the major segregation stages.</p>
 </div>
 </div>
@@ -522,7 +533,7 @@ Panorama of the Voirons (left), the Môle and the Mont-Blanc (middle) and Bornes
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -561,7 +572,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
