@@ -1,5 +1,5 @@
 ---
-title: "Provenance analysis of the Voirons Flysch"
+title: "The Voirons Flysch"
 output:
   html_document:
     toc: yes

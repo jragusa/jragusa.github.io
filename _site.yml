@@ -16,6 +16,8 @@ navbar:
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<jeremy.ragusa@hotmail.fr>
+    - icon: fab fa-twitter fa-lg
+      href: https://twitter.com/JeremyRagusa
     - icon: fab fa-flickr fa-lg
       href: https://www.flickr.com/photos/76628651@N07/
     - icon: fab fa-github fa-lg
