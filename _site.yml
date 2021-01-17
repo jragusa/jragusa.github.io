@@ -16,16 +16,10 @@ navbar:
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<jeremy.ragusa@hotmail.fr>
-    - icon: fab fa-twitter fa-lg
-      href: https://twitter.com/JeremyRagusa
     - icon: fab fa-flickr fa-lg
       href: https://www.flickr.com/photos/76628651@N07/
     - icon: fab fa-github fa-lg
       href: https://github.com/jragusa
-    - icon: fab fa-researchgate fa-lg
-      href: https://www.researchgate.net/profile/Jeremy_Ragusa
-    - icon: fab fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/j%C3%A9r%C3%A9my-ragusa-56320615a/
 output:
   html_document:
     theme: lumen

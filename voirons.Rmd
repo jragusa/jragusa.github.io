@@ -5,6 +5,8 @@ output:
     toc: yes
     toc_depth: 3
     toc_float: yes
+    includes:
+      after_body: footer.html
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">

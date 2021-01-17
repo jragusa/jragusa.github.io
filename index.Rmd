@@ -1,6 +1,8 @@
 ---
 output:
-  html_document
+  html_document:
+    includes:
+      after_body: footer.html
 ---
   
   <link rel="stylesheet" href="styles.css" type="text/css">
@@ -20,5 +22,3 @@ output:
   <a href="https://www.flickr.com/photos/76628651@N07/29299190868/in/dateposted-public/"><img src="https://farm1.staticflickr.com/841/29299190868_154b88d9e5_k.jpg"  style="height:207.5px;" alt="Le Saix de Bise depuis les hauteurs sous la Pointe de la Bosse"></a>
   <a href="https://www.flickr.com/photos/76628651@N07/21632513570/in/dateposted-public/"><img src="https://farm6.staticflickr.com/5637/21632513570_911eb95345_c.jpg" style="height:207.5px;" alt="Chalet d&#x27;Anterne devant la Chaîne de Fiz"></a>
 </figure>
-<br>
-<p><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Jérémy Ragusa and <a href="https://www.rstudio.com/"><img src="images/logorstudio.png" style="height:1.5em;"> </a></p>

@@ -4,6 +4,8 @@ output:
     toc: true
     toc_depth: 3
     toc_float: true
+    includes:
+      after_body: footer.html
 ---
   
   <link rel="stylesheet" href="styles.css" type="text/css">
@@ -35,11 +37,11 @@ Master 1 in paleoprimatology, paleontology and paleoenvironnements (**2004--2005
 
 Bachelor in geology (**2001--2004**). University of Dijon, France.
 
-## Professional Memberships
+<!-- ## Professional Memberships -->
 
-Swiss Geological Society
+<!-- Swiss Geological Society -->
 
-Association des sédimentologues français
+<!-- Association des sédimentologues français -->
 
 ## Awards & Grants
 
