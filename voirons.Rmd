@@ -85,10 +85,13 @@ Framework composition and heavy mineral populations describe two major detrital 
 The correlation of the modal composition with the grain-size distribution emphasises a proximal to basinal compositional trend. A statistical analysis describe 6 lithofacies. **L1**-**L2** correspond to channel deposits with a greater amount of extrabasinal, low cementation, large porosity and the lack of bioclasts. **L3**-**L5** lithofcies show the development of cementation at the expense of the porosity. The bioclast content increases with first the deposition of large benthic foraminifers and then planktonic foraminifers. Finally, glauconite-rich sandstones (**L6**) represent a reworked turbitic deposits by bottom current or the tail of density current. Their quartzose composition indicate the extensive reworking of the light fraction (e.g. bioclasts) by the current.
 
 ![Synthetic depositional model showing the compositional variation in gravity-flow deposits of the Voirons Flysch. 1 and 2 correspond to the major segregation stages.](https://raw.github.com/jragusa/Publications/master/Ragusa2018b/figs/Fig15.png)
+Brought back to the framework of provenance analysis, the lithofacies distribution shows that two factors control the sample distribution. The major one, the provenance (allogenic factor), identified from the quartz:feldspar ratio, distinguishes two major detrital groups which are organised following the weathering trend of the Continental Block domain, whereas the grain-size, and the depositional settings through the lithofacies, defines the sample distribution within each provenance along a channel-lobe axis (or an upstream-downstream trend). These results suggest that it is important to analyse the whole deep-sea fan to capture the entire detrital signature. Hence, comparisons between several deep-sea fans can only be made between entire similar depositional settings.
+
+![Distribution of the mean grain-size (A) and lithofacies (B) in the QmFLt ternary diagram. The sample distribution is goerned by both provenance and grain-size parameters.](https://raw.github.com/jragusa/Publications/master/Ragusa2018b/graphs/Fig18.png)
 
 ### Stratigraphy
 
-The creation of more than 30 stratigraphic logs help to better defined the overall stratigraphy of the Voirons flysch which is now subdivided into three stratigraphic units at the formation level (Ragusa, 2015; Ragusa et al., 2021):
+The creation of more than 30 stratigraphic logs improve the description of the overall stratigraphy of the Voirons flysch which is henceforth subdivided into three stratigraphic units at the formation level (Ragusa, 2015; Ragusa et al., 2021):
 
 #### The Voirons Sandstone
 
