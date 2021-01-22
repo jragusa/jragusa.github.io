@@ -91,6 +91,12 @@ Brought back to the framework of provenance analysis, the lithofacies distributi
 
 ![Distribution of the mean grain-size (A) and lithofacies (B) in the QmFLt ternary diagram. The sample distribution is goerned by both provenance and grain-size parameters.](https://raw.github.com/jragusa/Publications/master/Ragusa2018b/graphs/Fig18.png)
 
+## Biostratigraphy
+
+Initial attempts to date the Voirons Flysch were based on larger benthic foraminifera (Pilloud 1936; Lombard 1940; Schaub 1951; Rigassi 1958; Cogulu 1961) which constrain the Voirons Flysch between the Thanetian (Paleocene) and the Lutetian (Eocene). However, these organisms are mostly reworked from neighbouring carbonate platforms where they thrived during the Palaeogene (Scheibner and Speijer 2008). Calcareous nannofossils provided the first accurate biostratigraphic determinations (Jan du Chêne and Gorin, 1974; Jan du Chêne and Chateauneuf, 1975; Jan du Chêne et al. 1975; van Stuijvenberg 1980). They provided the first complete biostratigraphic description of the stratigraphy of the Voirons Flysch and lead to the description of the Boëge Marl (Van Stuijvenberg and Jan du Chêne, 1980) as the younger unit of the Voirons Flysch. The Voirons Flysch is then dated between the Thanetian and the Bartonian(Eocene). More recently, planktonic foraminifera biostratigraphy was also applied in the Voirons Flysch (Ujetz 1996; Frébourg 2006; Ospina-Ostios et al. 2013; Ospina-Ostios 2017). Initial biostratigraphic of planktonic foraminifers studies rejuvenated the flysch between the Middle Eocene and Early Oligocene (Ospina et al., 2013). Results corroborated the conclusion of Trümpy (2006) ascribing a Valais palaeogeographic origin. However, a biostratigraphic revision (Ragusa et al., 2018) reveals minor discrepancies with nannofossil biostratigraphy and constrain age between the Ypresian and the Bartonian but the youngest age are not defined and could extent to the Priabonian.
+
+![Comparison of the successive age ranges of the Voirons Flysch with the other flyschs of the former Gurnigel Nappe and the Briançonnais flyschs](images/Fig6_mod.png)
+
 ## Stratigraphy
 
 The creation of more than 30 stratigraphic logs improve the description of the overall stratigraphy of the Voirons flysch which is henceforth subdivided into three stratigraphic units at the formation level (Ragusa, 2015; Ragusa et al., 2021):
