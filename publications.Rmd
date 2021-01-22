@@ -1,18 +1,20 @@
 ---
 output:
   html_document:
+    css: style.css
+    includes:
+      after_body: footer.html
     toc: true
     toc_depth: 2
     toc_float: true
-    includes:
-      after_body: footer.html
+
 ---
   
   <link rel="stylesheet" href="styles.css" type="text/css">
 
 <a href="https://orcid.org/0000-0002-6597-7475"><font color="a6ce39">Orcid ID</font></a> and [Google Scholar](https://scholar.google.fr/citations?user=dcONfmgAAAAJ)
 
-## Peer-reviewed Publications
+# Peer-reviewed Publications
 **Ragusa J**, Ospina-Ostios LM, Kindler P, Sartori M (**2021**). Stratigraphic revision and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons Nappe, Chablais Prealps). *Swiss Journal of Geosciences*, 114, doi: 10.1186/s00015-020-00383-1.
 
 Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, **Ragusa J**, Busson J and Borgomanoa J (**2018**). Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. *Marine Geology*, 407:316-333, doi: [10.1016/j.margeo.2018.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032) [[PDF](files/Mulder2018.pdf)].
@@ -27,22 +29,22 @@ Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Principaud M, Cones
 
 Ospina-Ostios LM, **Ragusa J**, Wernli R, Kindler P (**2013**). Planktonic foraminifera biostratigraphy as a tool in constraining the timing of flysch deposition: Gurnigel flysch, Voirons massif (Haute-Savoie, France). *Sedimentology*, 60:225–238, doi: [10.1111/sed.12013](http://onlinelibrary.wiley.com/doi/10.1111/sed.12013/abstract;jsessionid=5A54433B3561A853F6DBF83958E6C356.f03t03) [[PDF](files/Ospina-Ostios2013.pdf)].
 
-## Submitted Publications
+# Submitted Publications
 
 nothing yet :)
 
-## Science outreach
+# Science outreach
 
 **Ragusa J**, Decrouez, D, Frebourg, G (**2021**). Géologie du Vouan, un ancien cañon sous-marin à
 l’emplacement incertain, *Nature et Patrimoine en Pays de Savoie*, in press.
 
-## Dissertations
+# Dissertations
 
 **Ragusa J** (**2015**). Petrograpy, stratigraphy and provenance analysis of the Voirons Flysch (Gurnigel nappe) in the Chablais Prealps (France). PhD Thesis, *University of Geneva*, official repository: [Archive ouverte UniGE](https://archive-ouverte.unige.ch/unige:75519)
 
 **Ragusa J** (**2009**). Study of heavy mineral population in the Voirons Flysch and the Samoëns Sandstones. Master Thesis, *University of Geneva*
 
-## Conference abstracts
+# Conference abstracts
 
 Mulder T, Gillet H, Hanquiez V, Ducassou E, Fauquembergue K, Recouvreur A, Fabregas N, Principaud M, Reijmer J, Conesa G, Droxler A, Cavailhes T, Le Goff J, **Ragusa J**, Bashah S, Bujan S, Blank D, Guiastrennec L, Borgomano J, Seibert C (**2018**) Giant Canyons and Chute Pools in Deep-Sea Carbonate Environment (Bahamas). *Abstract for the ACE 2018 Annual Convention & Exhibition*, Salt Lake City UH, USA [[link](http://www.searchanddiscovery.com/abstracts/html/2018/ace2018/abstracts/2857683.html)].
 

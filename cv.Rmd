@@ -1,11 +1,13 @@
 ---
 output:
   html_document:
+    css: style.css
+    includes:
+      after_body: footer.html
     toc: true
     toc_depth: 3
     toc_float: true
-    includes:
-      after_body: footer.html
+
 ---
   
   <link rel="stylesheet" href="styles.css" type="text/css">
@@ -16,7 +18,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 My full CV is available [here](files/jragusa_cv.pdf)
 
-## Professional Experiences
+# Professional Experiences
 
 Member of the scientific council of the [Chablais UNESCO Global Geoparks](https://www.geoparc-chablais.com/) (**2020--present**).
 
@@ -24,7 +26,7 @@ Lecturer at the [University of Geneva](https://www.unige.ch/sciences/terre/en/) 
 
 Scientific consultant at the [Chablais Geopark](https://www.geoparc-chablais.com/) (**2017--2020**).
   
-## Education
+# Education
 
 PostDoc (**2015--2016**). University of Geneva, Switzerland. Supervisor : Pascal
 Kindler.
@@ -43,23 +45,23 @@ Bachelor in geology (**2001--2004**). University of Dijon, France.
 
 <!-- Association des sédimentologues français -->
 
-## Awards & Grants
+# Awards & Grants
 
 Bourse Lombard (**2009**). Master thesis Award (1000 CHF), Société de Physique et d’Histoire naturel de Genève.
 
-## Organisation
+# Organisation
 
 Kindler P, Ragusa J, Slootman A (**2014**). Pre-Meeting IAS-Student Field Trip: The Mt. Salève, 19th International Sedimentology Congress (ISC), Geneva.
 
 Kindler P (**2014**). From passive margin to foreland basin: stratigraphy and sedimentology of the Bornes-Aravis massif (Haute-Savoie, France) from the Triassic to the Oligocene, 19th International Sedimentology Congress (ISC), Geneva.
 
-## Short courses
+# Short courses
 
 4th Sedimentary Provenance Analysis (**2014**). University of Göttigen, Germany.
 
 1st School of Heavy Mineral Analysis (**2013**). University of Milano-Bicocca, Italy.
 
-## Field courses
+# Field courses
 
 Remnants of the ancient Tethys margins preserved in the Tasna, Platta, Err, Bernina and Ortler nappes in the Alps (**2017**). Switzerland-Italy, Swiss Geological Society, leader: Gianreto Manatschal (University of Strasbourg).
 
@@ -73,13 +75,13 @@ Tectonics and sedimentation along an active plate boundary (**2012**) New Zealan
 
 Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of Western Switzerland (CUSO), leader: Pascal Kindler (University of Geneva).
 
-## Analytical methods
+# Analytical methods
 
 <i class="fa fa-flask" style="font-size: 1.5em;"></i> **Sedimentary petrography** sieving, staining feldspars, heavy mineral separation (SPT), counting
 
 <i class="fa fa-calculator" style="font-size: 1.5em;"></i> **Statistical analysis** cluster analysis, principal component analysis, Pearson coefficient, Aitchison’s log-ratio transformation
 
-## Skills
+# Skills
 
 <i class="fa fa-linux" style="font-size: 1.5em;"></i> Linux (Fedora) 
 
@@ -91,7 +93,7 @@ Modern and fossil carbonate environments (**2011**) Bahamas, Doctoral school of 
 
 <i class="fa fa-language" style="font-size: 1.5em;"></i> English (good), French (native), Russian (basics)
 
-## Interests
+# Interests
 
 <i class="fa fa-camera" style="font-size: 1.5em;"></i> photo, hiking, running
 
