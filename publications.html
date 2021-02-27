@@ -13,13 +13,22 @@
 
 <title>publications.utf8</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -39,11 +48,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -56,32 +60,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -93,10 +71,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -113,40 +87,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -174,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -186,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -197,10 +144,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -212,7 +172,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -338,13 +297,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -407,7 +366,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -419,7 +378,7 @@ div.tocify {
 <p><a href="https://orcid.org/0000-0002-6597-7475"><font color="a6ce39">Orcid ID</font></a> and <a href="https://scholar.google.fr/citations?user=dcONfmgAAAAJ">Google Scholar</a></p>
 <div id="peer-reviewed-publications" class="section level1">
 <h1>Peer-reviewed Publications</h1>
-<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P, Sartori M (<strong>2021</strong>). Stratigraphic revision and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons Nappe, Chablais Prealps). <em>Swiss Journal of Geosciences</em>, 114, doi: 10.1186/s00015-020-00383-1.</p>
+<p><strong>Ragusa J</strong>, Ospina-Ostios LM, Kindler P, Sartori M (<strong>2021</strong>). Stratigraphic revision and reconstruction of the deep-sea fan of the Voirons Flysch (Voirons Nappe, Chablais Prealps). <em>Swiss Journal of Geosciences</em>, 114:8, doi: <a href="https://link.springer.com/article/10.1186%2Fs00015-020-00383-1">10.1186/s00015-020-00383-1</a> [<a href="files/Ragusa2021a.pdf">PDF</a>].</p>
 <p>Mulder T, Gillet H, Hanquiez V, Reijmer JJG, Droxler AW, Recouvreur A, Fabregas N, Cavailhes T, Fauquembergue K, Blank DG, Guiastrennec L, Seibert C, Bashah S, Bujan S, Ducassou E, Principaud M, Conesa G, Le Goff J, <strong>Ragusa J</strong>, Busson J and Borgomanoa J (<strong>2018</strong>). Into the deep: A coarse-grained carbonate turbidite valley and canyon in ultra-deep carbonate setting. <em>Marine Geology</em>, 407:316-333, doi: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0025322718302032">10.1016/j.margeo.2018.11.003</a> [<a href="files/Mulder2018.pdf">PDF</a>].</p>
 <p><strong>Ragusa J</strong>, Kindler P (<strong>2018</strong>). Compositional variations in deep-sea gravity-flow deposits. A case study from the Voirons Flysch (Voirons-Wägital complex, Chablais Prealps, France). <em>Sedimentary Geology</em>, 377:111-130, doi: <a href="https://www.sciencedirect.com/science/article/pii/S0037073818302033">10.1016/j.sedgeo.2018.08.010</a> [<a href="files/Ragusa2018b.pdf">PDF</a>].</p>
 <p><strong>Ragusa J</strong>, Ospina-Ostios LM, Spezzaferri S, Kindler P (<strong>2018</strong>). Revision of the planktonic foraminiferal biostratigraphy of the Voirons Flysch (Chablais Prealps, Haute-Savoie, France). <em>Swiss Journal of Geosciences</em>, 111:433–445, doi: <a href="https://link.springer.com/article/10.1007%2Fs00015-018-0314-7">10.1007/s00015-018-0314-7</a> [<a href="files/Ragusa2018a.pdf">PDF</a>].</p>
@@ -505,7 +464,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
