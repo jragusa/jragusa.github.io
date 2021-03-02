@@ -11,7 +11,7 @@
 
 
 
-<title>index.utf8</title>
+<title>My Twitter threads</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,11 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -59,7 +60,7 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -221,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -297,22 +371,140 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">My Twitter threads</h1>
 
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<figure>
-<a href="https://www.flickr.com/photos/76628651@N07/30307772341/in/dateposted-public/"><img src="https://farm6.staticflickr.com/5598/30307772341_ef2e356cf3_c.jpg" width="910" alt="Panorama de la Tête du Bostan depuis la Berthe"></a>
-<figcaption>
-Panorama de la Tête du Bostan depuis la Berthe
-</figcaption>
-</figure>
-<p><br> <strong>Français</strong> Géologue bénéficiant d’une expertise dans le domaine de la sédimentologie détritique et la géologie régionale (Préalpes, Massifs sub-alpins). Très bonne connaissance dans l’analyse de roche détritique (composition, provenance, minéraux lourds), les statistiques et le langage de programmation R. Géologue autonome et curieux. Nombreuses compétences en informatique (linux, inkscape, R) et partageur de savoir (wikipedia, openstreetmap, Chablais Geopark). Actuellement à la recherche d’un emploi sur le bassin genevois.</p>
-<p><strong>English</strong> Geologist with an expertise in the field of detrital sedimentology and regional geology (Prealps, Sub-alpine massifs). Very good knowledge in detrital rock analysis (composition, provenance, heavy minerals), statistics and programming language R. I’m autonomous and curious geologist with numerous computer skills (linux, inkscape, R) and knowledge sharing (wikipedia, openstreetmap, Chablais Geopark). I’m currently looking for a job in the Geneva area.</p>
-<figure>
-<a href="https://www.flickr.com/photos/76628651@N07/27371612571/in/dateposted-public/"><img src="https://farm8.staticflickr.com/7293/27371612571_63a818bd1d_c.jpg" style="height:207.5px;" alt="Cascade du Rouget | Rouget Waterfall"></a> <a href="https://www.flickr.com/photos/76628651@N07/21199455343/in/dateposted-public/"><img src="https://farm1.staticflickr.com/613/21199455343_6fa34e7e60_c.jpg"  style="height:207.5px;" alt="Anticlinal couché du Buet à l&#x27;extrémité Nord de la Chaîne des Fiz depuis Salvagny"></a> <a href="https://www.flickr.com/photos/76628651@N07/29299190868/in/dateposted-public/"><img src="https://farm1.staticflickr.com/841/29299190868_154b88d9e5_k.jpg"  style="height:207.5px;" alt="Le Saix de Bise depuis les hauteurs sous la Pointe de la Bosse"></a> <a href="https://www.flickr.com/photos/76628651@N07/21632513570/in/dateposted-public/"><img src="https://farm6.staticflickr.com/5637/21632513570_911eb95345_c.jpg" style="height:207.5px;" alt="Chalet d&#x27;Anterne devant la Chaîne de Fiz"></a>
-</figure>
+<div id="english-threads" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> English threads</h1>
+<p>number of tweets in brackets</p>
+<ul>
+<li>
+2020-03-16 <a href="https://twitter.com/JeremyRagusa/status/1239558379334483969">Lake Montriond (9)</a>
+</li>
+<li>
+2020-03-27 <a href="https://twitter.com/JeremyRagusa/status/1243485824848666624">Plateau des Glières (2)</a>
+</li>
+<li>
+2020-04-02 <a href="https://twitter.com/JeremyRagusa/status/1245779235442233345">Palaeogeographic reconstruction of the Mediterranean region (4)</a>
+</li>
+<li>
+2020-04-19 <a href="https://twitter.com/JeremyRagusa/status/1251827970441990144">Bons sandstone #StoneAtHome (9)</a>
+</li>
+<li>
+2020-05-08 <a href="https://twitter.com/JeremyRagusa/status/1258785126219210752">Nodular limestone #StoneAtHome (10)</a>
+</li>
+<li>
+2020-07-09 <a href="https://twitter.com/JeremyRagusa/status/1292751065004351488">Geology in videogames (2)</a>
+</li>
+<li>
+2020-08-28 <a href="https://twitter.com/JeremyRagusa/status/1306242032864825344">Triassic of the Helvetic nappe (6)</a>
+</li>
+<li>
+2020-09-15 <a href="https://twitter.com/JeremyRagusa/status/1306242032864825344">Tour de France: Villard de Lans → La tour-du-Pin (12)</a>
+</li>
+<li>
+2020-09-16 <a href="https://twitter.com/JeremyRagusa/status/1306242032864825344">Tour de France: Col de la Loze (4)</a>
+</li>
+<li>
+2020-09-17 <a href="https://twitter.com/JeremyRagusa/status/1306523510806900736">Tour de France: Méribel → La Roche-sur-Foron (17)</a>
+</li>
+<li>
+2020-09-18 <a href="https://twitter.com/JeremyRagusa/status/1306929443072606208">Tour de France: Bourg-en-Bresse → Champagnole (15)</a>
+</li>
+<li>
+2020-10-15 <a href="https://twitter.com/JeremyRagusa/status/1316798209071681537">Folds at Breil-sur-Roya (3)</a>
+</li>
+<li>
+2020-11-27 <a href="https://twitter.com/JeremyRagusa/status/1332292478658023424">Pierre du Niton (6)</a>
+</li>
+<li>
+2020-12-28 <a href="https://twitter.com/JeremyRagusa/status/1343336021983961089">End of Cretaceous (2)</a>
+</li>
+<li>
+2020-12-28 <a href="https://twitter.com/JeremyRagusa/status/1343341730758844419">Paleocene-Eocene (2)</a>
+</li>
+<li>
+2020-12-29 <a href="https://twitter.com/JeremyRagusa/status/1343888481244884992">Eocene-Oligocene (3)</a>
+</li>
+<li>
+2020-12-31 <a href="https://twitter.com/JeremyRagusa/status/1344728798806364162">Paleogene (3)</a>
+</li>
+<li>
+2021-01-03 <a href="https://twitter.com/RebeccaRHelm/status/1345462131924189184">Macrostrat.org (3)</a>
+</li>
+<li>
+2021-01-17 <a href="https://twitter.com/JeremyRagusa/status/1351898103016730624">Pic de Panestrel (3)</a>
+</li>
+<li>
+2021-01-20 <a href="https://twitter.com/JeremyRagusa/status/1351898103016730624">Ligne de Terre #urbangeology (5)</a>
+</li>
+<li>
+2020-11-01 <a href="https://twitter.com/JeremyRagusa/status/1323022989282205705">Dr No and iron in Bahamas (3)</a>
+</li>
+<li>
+2021-02-17 <a href="https://twitter.com/JeremyRagusa/status/1361452922714873859">The Sichelkamm (7)</a>
+</li>
+<li>
+2021-02-17 <a href="https://twitter.com/JeremyRagusa/status/1361819759009017857">The Ferdenrothron (9)</a>
+</li>
+</ul>
+</div>
+<div id="fils-en-français" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Fils en français</h1>
+<p>nombre de gazoullis entre parenthèses</p>
+<ul>
+<li>
+2019-10-18 <a href="https://twitter.com/JeremyRagusa/status/1211611274834055169">Guides du Géopark (5)</a>
+</li>
+<li>
+2019-12-30 <a href="https://twitter.com/JeremyRagusa/status/1211611274834055169">Séime Chablais (6)</a>
+</li>
+<li>
+2020-02-12 <a href="https://twitter.com/JeremyRagusa/status/1227608987681665024">Pli de l’Arpenaz (26)</a>
+</li>
+<li>
+2020-02-21 <a href="https://twitter.com/JeremyRagusa/status/1230840192208195584">Massif du Grand-Châtelard (5)</a>
+</li>
+<li>
+2020-03-16 <a href="https://twitter.com/JeremyRagusa/status/1239556309508411393">Lac de Montriond (10)</a>
+</li>
+<li>
+2020-03-24 <a href="https://twitter.com/JeremyRagusa/status/1242463316464685064">Dents du Midi (3)</a>
+</li>
+<li>
+2020-08-10 <a href="https://twitter.com/JeremyRagusa/status/1292751065004351488">Glissement de terrain dans les flysch (8)</a>
+</li>
+<li>
+2020-08-12 <a href="https://twitter.com/JeremyRagusa/status/1293659367246630915">L’Amérique du Nord au Crétacé (6)</a>
+</li>
+<li>
+2020-11-10 <a href="https://twitter.com/JeremyRagusa/status/1326220375706005505">Minutions de la première guerre mondiale (4)</a>
+</li>
+<li>
+2020-11-29 <a href="https://twitter.com/JeremyRagusa/status/1333365262029033474">Protection du patrimoine géologique (18)</a>
+</li>
+<li>
+2020-12-09 <a href="https://twitter.com/JeremyRagusa/status/1337433482109329411">Qauternaire en France + graben de la Bresse</a>
+</li>
+<li>
+2020-12-11 <a href="https://twitter.com/JeremyRagusa/status/1337433482109329411">Enquête Ademe (10)</a>
+</li>
+<li>
+2020-12-27 <a href="https://twitter.com/JeremyRagusa/status/1343202085190455302">Jean-Marc Jancovici (5)</a>
+</li>
+<li>
+2021-02-03 <a href="https://twitter.com/JeremyRagusa/status/1357037985825439748">Brèche des marges passives téthysiennes (7)</a>
+</li>
+<li>
+2021-02-06 <a href="https://twitter.com/JeremyRagusa/status/1358107238376894464">Sable du Sahara (7)</a>
+</li>
+<li>
+2021-02-12 <a href="https://twitter.com/JeremyRagusa/status/1360254014391283716">Géologie du Japon (11)</a>
+</li>
+</ul>
+</div>
 
 &nbsp;
 <hr />
@@ -329,6 +521,8 @@ Panorama de la Tête du Bostan depuis la Berthe
 &nbsp;
 
 
+</div>
+</div>
 
 </div>
 
@@ -361,6 +555,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

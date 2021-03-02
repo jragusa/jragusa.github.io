@@ -1,0 +1,65 @@
+---
+title: "My Twitter threads"
+output:
+  html_document:
+    css: style.css
+    includes:
+      after_body: footer.html
+    number_sections: true
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+
+# English threads
+
+number of tweets in brackets
+
+ <ul>
+  <li>2020-03-16 [Lake Montriond (9)](https://twitter.com/JeremyRagusa/status/1239558379334483969)</li>
+  <li>2020-03-27 [Plateau des Glières (2)](https://twitter.com/JeremyRagusa/status/1243485824848666624)</li>
+  <li>2020-04-02 [Palaeogeographic reconstruction of the Mediterranean region (4)](https://twitter.com/JeremyRagusa/status/1245779235442233345)</li>
+  <li>2020-04-19 [Bons sandstone #StoneAtHome (9)](https://twitter.com/JeremyRagusa/status/1251827970441990144)</li>
+  <li>2020-05-08 [Nodular limestone #StoneAtHome (10)](https://twitter.com/JeremyRagusa/status/1258785126219210752)</li>
+  <li>2020-07-09 [Geology in videogames (2)](https://twitter.com/JeremyRagusa/status/1292751065004351488)</li>
+  <li>2020-08-28 [Triassic of the Helvetic nappe (6)](https://twitter.com/JeremyRagusa/status/1306242032864825344)</li>
+  <li>2020-09-15 [Tour de France: Villard de Lans → La tour-du-Pin (12)](https://twitter.com/JeremyRagusa/status/1306242032864825344)</li>
+  <li>2020-09-16 [Tour de France: Col de la Loze (4)](https://twitter.com/JeremyRagusa/status/1306242032864825344)</li>
+  <li>2020-09-17 [Tour de France: Méribel → La Roche-sur-Foron (17)](https://twitter.com/JeremyRagusa/status/1306523510806900736)</li>
+  <li>2020-09-18 [Tour de France: Bourg-en-Bresse → Champagnole (15)](https://twitter.com/JeremyRagusa/status/1306929443072606208)</li>
+  <li>2020-10-15 [Folds at Breil-sur-Roya (3)](https://twitter.com/JeremyRagusa/status/1316798209071681537)</li>
+  <li>2020-11-27 [Pierre du Niton (6)](https://twitter.com/JeremyRagusa/status/1332292478658023424)</li>
+  <li>2020-12-28 [End of Cretaceous (2)](https://twitter.com/JeremyRagusa/status/1343336021983961089)</li>
+  <li>2020-12-28 [Paleocene-Eocene (2)](https://twitter.com/JeremyRagusa/status/1343341730758844419)</li>
+  <li>2020-12-29 [Eocene-Oligocene (3)](https://twitter.com/JeremyRagusa/status/1343888481244884992)</li>
+  <li>2020-12-31 [Paleogene (3)](https://twitter.com/JeremyRagusa/status/1344728798806364162)</li>
+  <li>2021-01-03 [Macrostrat.org (3)](https://twitter.com/RebeccaRHelm/status/1345462131924189184)</li>
+  <li>2021-01-17 [Pic de Panestrel (3)](https://twitter.com/JeremyRagusa/status/1351898103016730624)</li>
+  <li>2021-01-20 [Ligne de Terre #urbangeology (5)](https://twitter.com/JeremyRagusa/status/1351898103016730624)</li>
+  <li>2020-11-01 [Dr No and iron in Bahamas (3)](https://twitter.com/JeremyRagusa/status/1323022989282205705)</li>
+  <li>2021-02-17 [The Sichelkamm (7)](https://twitter.com/JeremyRagusa/status/1361452922714873859)</li>
+  <li>2021-02-17 [The Ferdenrothron (9)](https://twitter.com/JeremyRagusa/status/1361819759009017857)</li>
+</ul> 
+
+# Fils en français
+
+nombre de gazoullis entre parenthèses
+
+ <ul>
+  <li>2019-10-18 [Guides du Géopark (5)](https://twitter.com/JeremyRagusa/status/1211611274834055169)</li>
+  <li>2019-12-30 [Séime Chablais (6)](https://twitter.com/JeremyRagusa/status/1211611274834055169)</li>
+  <li>2020-02-12 [Pli de l'Arpenaz (26)](https://twitter.com/JeremyRagusa/status/1227608987681665024)</li>
+  <li>2020-02-21 [Massif du Grand-Châtelard (5)](https://twitter.com/JeremyRagusa/status/1230840192208195584)</li>
+  <li>2020-03-16 [Lac de Montriond (10)](https://twitter.com/JeremyRagusa/status/1239556309508411393)</li>
+  <li>2020-03-24 [Dents du Midi (3)](https://twitter.com/JeremyRagusa/status/1242463316464685064)</li>
+  <li>2020-08-10 [Glissement de terrain dans les flysch (8)](https://twitter.com/JeremyRagusa/status/1292751065004351488)</li>
+  <li>2020-08-12 [L'Amérique du Nord au Crétacé (6)](https://twitter.com/JeremyRagusa/status/1293659367246630915)</li>
+  <li>2020-11-10 [Minutions de la première guerre mondiale (4)](https://twitter.com/JeremyRagusa/status/1326220375706005505)</li>
+  <li>2020-11-29 [Protection du patrimoine géologique (18)](https://twitter.com/JeremyRagusa/status/1333365262029033474)</li>
+  <li>2020-12-09 [Quaternaire en France + graben de la Bresse](https://twitter.com/JeremyRagusa/status/1337433482109329411)</li>
+  <li>2020-12-11 [Enquête Ademe (10)](https://twitter.com/JeremyRagusa/status/1337433482109329411)</li>
+  <li>2020-12-27 [Jean-Marc Jancovici (5)](https://twitter.com/JeremyRagusa/status/1343202085190455302)</li>
+  <li>2021-02-03 [Brèche des marges passives téthysiennes (7)](https://twitter.com/JeremyRagusa/status/1357037985825439748)</li>
+  <li>2021-02-06 [Sable du Sahara (7)](https://twitter.com/JeremyRagusa/status/1358107238376894464)</li>
+  <li>2021-02-12 [Géologie du Japon (11)](https://twitter.com/JeremyRagusa/status/1360254014391283716)</li>
+</ul>

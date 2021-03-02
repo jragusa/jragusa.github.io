@@ -11,6 +11,8 @@ navbar:
       href: cv.html
     - text: "Project"
       menu:
+        - text: "Twitter threads"
+          href: twitter.html
         - text: "Voirons Flysch"
           href: voirons.html
   right:
