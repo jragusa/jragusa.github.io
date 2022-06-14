@@ -100,9 +100,16 @@ Initial attempts to date the Voirons Flysch were based on larger benthic foramin
 
 ## Stratigraphy
 
-The creation of more than 30 stratigraphic logs improve the description of the overall stratigraphy of the Voirons flysch which is henceforth subdivided into three stratigraphic units at the formation level (Ragusa, 2015; Ragusa et al., 2021):
+The creation of more than 30 stratigraphic logs improves the description of the overall stratigraphy of the Voirons flysch which is henceforth subdivided into three stratigraphic units at the formation level and an uncertain unit (Ragusa, 2015; Ragusa et al., 2021):
 
-### The Voirons Sandstone
+<figure>
+  <img src="images/Fig4.png" height="500" alt="Stratigraphic log of the Voirons flysch">
+  <img src="images/Fig5.png" height="500" alt="Geologic map of the Voirons flysch in the western part">
+</figure>
+
+The revision resolves some uncertainties of attribution (Allinges hills) and refines some contacts (Upper Saxel quarry belongs now to the Vouan Conglomerate). Reference sections are also defined.
+
+### Voirons Sandstone
 
 <figure>
   <img src="images/DSC_1751_mod.JPG" width="250" alt="Pink granite">
