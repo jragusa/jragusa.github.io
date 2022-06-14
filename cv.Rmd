@@ -12,7 +12,7 @@ output:
   
   <link rel="stylesheet" href="styles.css" type="text/css">
 
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
